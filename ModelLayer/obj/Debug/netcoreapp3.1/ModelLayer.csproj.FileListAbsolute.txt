@@ -1,0 +1,10 @@
+D:\MVCnew\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.deps.json
+D:\MVCnew\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.dll
+D:\MVCnew\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.pdb
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.csproj.AssemblyReference.cache
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.AssemblyInfoInputs.cache
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.AssemblyInfo.cs
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.csproj.CoreCompileInputs.cache
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.dll
+D:\MVCnew\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.pdb

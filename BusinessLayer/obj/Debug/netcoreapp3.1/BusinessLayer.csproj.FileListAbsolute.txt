@@ -1,0 +1,15 @@
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\ModelLayer.dll
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\ModelLayer.pdb
+D:\MVCnew\BusinessLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.AssemblyReference.cache
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\MVCnew\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb

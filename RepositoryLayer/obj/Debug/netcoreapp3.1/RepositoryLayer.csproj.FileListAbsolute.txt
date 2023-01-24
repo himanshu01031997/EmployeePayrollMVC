@@ -1,0 +1,13 @@
+D:\MVCnew\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.deps.json
+D:\MVCnew\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\MVCnew\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+D:\MVCnew\RepositoryLayer\bin\Debug\netcoreapp3.1\ModelLayer.dll
+D:\MVCnew\RepositoryLayer\bin\Debug\netcoreapp3.1\ModelLayer.pdb
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.AssemblyReference.cache
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfoInputs.cache
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfo.cs
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CopyComplete
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\MVCnew\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb
