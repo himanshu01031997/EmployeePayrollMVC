@@ -4,12 +4,19 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<div>
+    <img src="~/asset/logo (1).png" style="width:50px;height:47px" />
+    <div>
+        <span style="color: #82A70C">EMPLOYEE</span><br />
+        <span style="color: #42515F"> PAYROLL</span>
+    </div>
+    <div>
+</div>
+    <div>
+        <a class="btn-success" asp-action="Create">+ Create New</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<table class="table" >
     <thead>
         <tr>
             <th>
@@ -67,9 +74,9 @@
                 @Html.DisplayFor(modelItem => item.Notes)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Emplooyeeid }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.Emplooyeeid  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.Emplooyeeid  })
             </td>
         </tr>
 }

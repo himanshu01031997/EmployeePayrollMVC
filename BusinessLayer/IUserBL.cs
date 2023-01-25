@@ -12,5 +12,7 @@ namespace BusinessLayer
 
         public void UpdateEmployee(EmployeePModel employee);
         public EmployeePModel GetEmployeeData(int? id);
+        public void DeleteEmployee(int? id);
+
     }
 }

@@ -78,7 +78,7 @@ namespace RepositoryLayer
         {
             using (SqlConnection con = new SqlConnection(this.configuration.GetConnectionString("EmployeePayrollconnection")))
             {
-                SqlCommand cmd = new SqlCommand("spUpdateEmployee", con);
+                SqlCommand cmd = new SqlCommand("SpUpdate", con);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@Emplooyeeid", employee.Emplooyeeid);
@@ -122,21 +122,21 @@ namespace RepositoryLayer
             }
             return employee;
         }
-        //To Delete the record on a particular employee    
-        //public void DeleteEmployee(int? id)
-        //{
+        //To Delete the record on a particular employee
+        public void DeleteEmployee(int? id)
+        {
 
-        //    using (SqlConnection con = new SqlConnection(connectionString))
-        //    {
-        //        SqlCommand cmd = new SqlCommand("spDeleteEmp", con);
-        //        cmd.CommandType = CommandType.StoredProcedure;
+            using (SqlConnection con = new SqlConnection(this.configuration.GetConnectionString("EmployeePayrollconnection")))
+            {
+                SqlCommand cmd = new SqlCommand("SpDeleteEmp", con);
+                cmd.CommandType = CommandType.StoredProcedure;
 
-        //        cmd.Parameters.AddWithValue("@Emplooyeeid", id);
+                cmd.Parameters.AddWithValue("@Emplooyeeid", id);
 
-        //        con.Open();
-        //        cmd.ExecuteNonQuery();
-        //        con.Close();
-        //    }
-        //}
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+        }
     }
 }

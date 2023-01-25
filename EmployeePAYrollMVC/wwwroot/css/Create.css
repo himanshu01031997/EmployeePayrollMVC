@@ -1,0 +1,17 @@
+﻿body {
+}
+
+
+.row {
+    background-color: lightgray;
+    justify-content: center;
+}
+.add{
+    position:relative;
+    right:-450px;
+
+}
+.add1 {
+    position: relative;
+    right:-390px;
+}

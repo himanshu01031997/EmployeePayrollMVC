@@ -133,3 +133,5 @@ D:\MVCnew\EmployeePAYrollMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primit
 D:\MVCnew\EmployeePAYrollMVC\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 D:\MVCnew\EmployeePAYrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\EmployeePayroll\Create.cshtml.g.cs
 D:\MVCnew\EmployeePAYrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\EmployeePayroll\Edit.cshtml.g.cs
+D:\MVCnew\EmployeePAYrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\EmployeePayroll\Delete.cshtml.g.cs
+D:\MVCnew\EmployeePAYrollMVC\obj\Debug\netcoreapp3.1\Razor\Views\EmployeePayroll\Details.cshtml.g.cs

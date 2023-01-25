@@ -4,9 +4,15 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
 
-<h4>EmployeePModel</h4>
+<img src="~/asset/logo (1).png" style="width:50px;height:47px" />
+<div>
+    <span style="color: #82A70C">EMPLOYEE</span><br />
+    <span style="color: #42515F"> PAYROLL</span>
+</div>
+<div >
+    <h3 class="add">Edit Employee Details</h3>
+</div>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,12 +30,24 @@
             </div>
             <div class="form-group">
                 <label asp-for="Employeeimage" class="control-label"></label>
-                <input asp-for="Employeeimage" class="form-control" />
+                <div>
+                    @Html.RadioButtonFor(model => model.Employeeimage, "~/asset/Ellipse -1.png")
+                    <img class="profile1" src="~/asset/Ellipse -1.png" />
+                    @Html.RadioButtonFor(model => model.Employeeimage, "~/asset/Ellipse -2.png")
+                    <img class="profile2" src="~/asset/Ellipse -2.png" />
+                    @Html.RadioButtonFor(model => model.Employeeimage, "~/asset/Ellipse -3.png")
+                    <img class="profile3" src="~/asset/Ellipse -3.png" />
+                    @Html.RadioButtonFor(model => model.Employeeimage, "~/asset/Ellipse -4.png")
+                    <img class="profile4" src="~/asset/Ellipse -4.png" />
+                </div>       
                 <span asp-validation-for="Employeeimage" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Gender" class="control-label"></label>
-                <input asp-for="Gender" class="form-control" />
+                <select asp-for="Gender" class="form-control">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>          
                 <span asp-validation-for="Gender" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -59,7 +77,7 @@
     </div>
 </div>
 
-<div>
+<div >
     <a asp-action="Index">Back to List</a>
 </div>
 

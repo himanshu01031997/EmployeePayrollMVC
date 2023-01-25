@@ -68,5 +68,43 @@ namespace EmployeePAYrollMVC.Controllers
             }
             return View(employee);
         }
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            EmployeePModel employee = UserBL.GetEmployeeData(id);
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int? id)
+        {
+            UserBL.DeleteEmployee(id);
+            return RedirectToAction("Index");
+        }
+        [HttpGet]
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            EmployeePModel employee = UserBL.GetEmployeeData(id);
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
     }
 }

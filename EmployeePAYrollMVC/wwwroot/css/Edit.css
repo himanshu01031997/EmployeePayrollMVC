@@ -1,0 +1,48 @@
+﻿.form-group1
+{
+    position:relative;
+    right:-400px;
+    top:-84px;
+}
+.form-group11 {
+    position: relative;
+    left: -350px;
+    top: -1px;
+}
+.form-group2 {
+    position: relative;
+    left: 50px;
+}
+.form-group4 {
+    position: relative;
+
+     top:-100px;
+}
+.form-group7 {
+    position: relative;
+    top:-100px;
+}
+.form-group6 {
+    position: relative;
+    top: 100px;
+}
+.form-group8 {
+    position: relative;
+    top: -100px;
+}
+.backtobutt {
+    position: relative;
+    bottom: 190px;
+}
+.form-group4 {
+    position: relative;
+    bottom: 190px;
+}
+.row {
+    background-color: lightgray;
+    justify-content: center;
+}
+.add {
+    position: relative;
+    right:400px;
+}

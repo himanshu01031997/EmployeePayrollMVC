@@ -63,6 +63,19 @@ namespace BusinessLayer
             }
 
         }
+        public void DeleteEmployee(int? id)
+        {
+            try
+            {
+                 this.userRL.DeleteEmployee(id);
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+
+        }
+
 
     }
 }

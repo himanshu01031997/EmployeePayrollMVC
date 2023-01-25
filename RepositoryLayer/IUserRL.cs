@@ -11,6 +11,6 @@ namespace RepositoryLayer
         public void AddEmployees(EmployeePModel employee);
         public void UpdateEmployee(EmployeePModel employee);
         public EmployeePModel GetEmployeeData(int? id);
-        //public void DeleteEmployee(int? id);
+        public void DeleteEmployee(int? id);
     }
 }
